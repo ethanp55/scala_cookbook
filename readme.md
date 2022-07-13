@@ -1,0 +1,1 @@
+This repo contains a few implementations from the Scala cookbook, mainly around functional programming principles, Scala classes, and Scala traits (the areas where I felt I needed more knowledge).
