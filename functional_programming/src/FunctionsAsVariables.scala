@@ -12,4 +12,11 @@ object FunctionsAsVariables extends App {
   }
   val newC = applyHypotenus(4, 5, hypotenuse)
   println(newC)
+
+  // "Partially applied functions" are also possible in Scala
+  val cos = scala.math.cos(_)
+  println(cos(0))
+
+  val pow = scala.math.pow(_, _)
+  println(pow(scala.math.Pi, 2))
 }
