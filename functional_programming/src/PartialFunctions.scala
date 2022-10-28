@@ -1,5 +1,7 @@
 object PartialFunctions extends App {
   // Partial functions define a few useful methods, like the isDefinedAt method
+  // The [Int, Int] syntax means the partial function takes an int and outputs an int; you could have other cases like
+  // [Int, String] (takes an int, outputs a string), etc.
   val divide = new PartialFunction[Int, Int] {
     def apply(x: Int): Int = 42 / x
 
